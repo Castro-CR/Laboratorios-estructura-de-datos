@@ -35,7 +35,11 @@ public class Lab2 {
            //2. Inicializar el arreglo con el tamaño
            numeros = new int[Integer.parseInt(size)];
            
-           
+           //3. Llenar el arreglo
+            for (int i = 0; i < numeros.length; i++) {
+                int numero = numeros[i];
+                
+            }
             
            JOptionPane.showMessageDialog(null, Arrays.toString(numeros));
         } 

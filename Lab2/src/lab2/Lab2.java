@@ -20,7 +20,7 @@ public class Lab2 {
     public static void main(String[] args) {
         // TODO code application logic here
         try {
-            String[] nombres = new String[3];
+            String[] nombres;
             int numeros [] = new int [3];
            // numeros[0]=10;
             //numeros[1]=20;
@@ -30,9 +30,12 @@ public class Lab2 {
            // System.out.println(Arrays.toString(numeros));
            
            //1. Preguntar tamanaño del arreglo
-           JOptionPane.showInputDialog("Ingrese el tamaño del arreglo");
+           String size = JOptionPane.showInputDialog("Ingrese el tamaño del arreglo");
+           
            //2. Inicializar el arreglo con el tamaño
-           //3. Llenar el arreglo
+           numeros = new int[Integer.parseInt(size)];
+           
+           
             
            JOptionPane.showMessageDialog(null, Arrays.toString(numeros));
         } 

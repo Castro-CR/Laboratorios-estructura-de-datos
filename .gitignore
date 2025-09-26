@@ -1,6 +1,6 @@
-Lab1/build/classes/.netbeans_automatic_build
-Lab1/build/classes/.netbeans_update_resources
-Lab1/build/classes/lab1/Lab1.class
-Lab2/build/classes/.netbeans_automatic_build
-Lab2/build/classes/.netbeans_update_resources
-Lab2/build/classes/lab2/Lab2.class
+build/
+dist/
+nbproject/private/
+nbproject/configurations.xml
+*.log
+temp/

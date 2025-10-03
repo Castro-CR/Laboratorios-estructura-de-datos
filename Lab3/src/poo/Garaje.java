@@ -28,7 +28,7 @@ public class Garaje {
         }
     }
     //listar carros()
-    public void listar(){
+    public void listarCarros(){
         for (Carro espacio : espacios) {
             System.out.printf(" %s[%s]\n", espacio.getMarca(), espacio.getModelo());
         }

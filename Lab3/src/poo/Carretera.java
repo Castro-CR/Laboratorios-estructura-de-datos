@@ -62,13 +62,14 @@ public class Carretera {
     //removerCarrosAntiguos
     
      public void removerCarrosAntiguos(){
+         int año = 2025;
         var it = this.carros.iterator();
         while (it.hasNext()) {        
             Carro next = it.next();
-            int año = 2025;
+            int antiguo = año - next.getAño();
             //validar antiguedad del carro.
-            if (año > 20){
-             System.out.printf(" %s[%s]\n", next.getMarca(), next.getModelo());
+            if (antiguo > 20){
+             System.out.printf("El carro %s[%s] del año %d está siendo removido\n", next.getMarca(), next.getModelo(), next.getAño());
             it.remove();
             }
         }

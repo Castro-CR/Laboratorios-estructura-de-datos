@@ -28,19 +28,19 @@ public class Lab3 {
         System.out.println(c1.toString());
         
         Carro c2 = new Carro("Ford","Bronco","Negro",2024);
-        c2.setAño(2020); 
+        c2.setAño(2024); 
         System.out.println(c2.toString());
         
         Carro c3 = new Carro("Ford","Mustang","Blanco",1990);
-        c3.setAño(2020);
+        c3.setAño(1990);
         System.out.println(c3.toString());
         
         Carro c4 = new Carro("Chevrolet","Camaro","Negro",2025);
-        c4.setAño(2020);
+        c4.setAño(2025);
         System.out.println(c4.toString());
         
         Carro c5 = new Carro("Hyundai","Elantra","Naranja",2019);
-        c5.setAño(2020);
+        c5.setAño(2019);
         System.out.println(c5.toString());
         
         Carro c6 = new Carro("BMW","M4 COMPETION","Gris",2020);
@@ -59,7 +59,12 @@ public class Lab3 {
         c.agregarCarro(c4);
         c.agregarCarro(c5);
         c.agregarCarro(c6);
-        c.listarCarros();
+       
+        
+        
+        c.removerCarrosAntiguos();
+        
+         c.listarCarros();
 
     }
     
